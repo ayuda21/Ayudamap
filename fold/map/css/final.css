@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+ 
+body {
+   line-height: 1.8;
+   color: #000000;
+   font-size: 15px;
+   font-family: 'Lato', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #000000;
+   position: relative;
+}
+
+.title-sm {
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+.navbar {
+    border-bottom: 1px solid #26bf00;
+ }
+ 
+ .logo-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000 !important;
+ }
+ .logo-text1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000 !important;
+ }
+ .navbar .nav-link {
+    color: #26bf00;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ 
+ .navbar-light .navbar-nav .nav-link.active {
+    color: #26bf00;
+ }
+ 
+ #home {
+   background:  url(../img/logo1.png);
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
+}
+ 
+ .footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+ }
+ 
+ .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: rgb(0, 0, 0);
+ }
+ 
+ footer .footer-links a,
+ footer .social-icons a {
+    color: black;
+ }
+ 
+ footer .social-icons a {
+    font-size: 24px;
+ }
+ 
+ footer .footer-links a {
+    display: block;
+    font-weight: 400;
+ }
+ 
+ footer .social-icons a:hover,
+ footer .footer-links a:hover {
+    color: #28f52f;
+ }
+ #cta {
+    background-color: #f14f14;
+ }
+ a {
+    font-weight: 550;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}

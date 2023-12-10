@@ -1,0 +1,15 @@
+body {
+    padding:50px;
+    background-image: url(back.jpg);
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
